@@ -1,0 +1,49 @@
+.ig_button{
+    color: black;
+    background-size: contain;
+    cursor: pointer;
+    transition: .5s linear max-height 0s, .5s linear max-width 0s, .5s linear padding 0s;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 2rem;
+    padding: 0rem;
+    max-width: 4rem;
+    background-color: white;
+    max-height: 4rem;
+}
+
+.ig_button_upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ig_button_upper>img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+.ig_button:hover, .ig_button[open]{
+    /*scale: 1.2;*/
+    max-height: 10rem;
+    max-width: 30rem;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.ig_border_wrapper[preview]{
+    position: static;
+}
+
+.ig_border_wrapper{
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  max-width: 250px;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  padding: 3px;
+  border-radius: 2rem;
+}
