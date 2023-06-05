@@ -74,12 +74,3 @@ function custom_menu()
 
 add_action('admin_menu', 'custom_menu');
 
-
-/*
-TODO:
-
-don't cancel image if not uploaded,
-add firebase data get
-restile admine page
-
-*/
